@@ -1,0 +1,8 @@
+<%- include("partials/header"); -%>
+
+<br><h1>Home</h1>
+<% for(var i=0;i<objEntry1.length;i++){ %>
+  <br><h4> <%= objEntry1[i].entriesTitle %> </h4>
+  <p> <%= objEntry1[i].entries %> <a href="/post/:<%= objEntry1[i].entriesTitle %>">Read more</a></p>
+<% } %>
+<%- include("partials/footer"); -%>

@@ -99,6 +99,6 @@ app.get("/post/:key",function(req,res){
 
 
 
-app.listen(6969, function() {
+app.listen(process.env.PORT || 6969, function() {
   console.log("Server started on port 6969");
 });

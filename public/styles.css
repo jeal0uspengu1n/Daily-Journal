@@ -19,10 +19,6 @@ body{
     color: #1abc9c !important;
 }
 
-.footer-padding {
-	padding-bottom: 60px;
-}
-
 .footer {
 	position: fixed;
 	text-align: center;

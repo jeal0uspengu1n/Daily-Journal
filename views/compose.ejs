@@ -1,12 +1,12 @@
 <%- include("partials/header"); -%>
 
-<h1>Compose</h1>
+<h1>New query</h1>
 <form class="" action="/compose" method="post">
-  <label for="newEntryTitle">Title</label><br>
+  <label for="newEntryTitle">UserID</label><br>
   <textarea name="newEntryTitle" id="newEntryTitle" value="" rows="1" cols="100"></textarea><br>
-  <label for="newEntry">Post</label><br>
+  <label for="newEntry">Message/Query</label><br>
   <textarea name="newEntry" id="newEntry" value="" rows="4" cols="100"></textarea><br>
-  <button type="submit" name="button" style="background-color: #61A4BC;">Publish</button>
+  <button type="submit" name="button" style="background-color: #61A4BC;">Submit</button>
 </form>
 
 <%- include("partials/footer"); -%>
